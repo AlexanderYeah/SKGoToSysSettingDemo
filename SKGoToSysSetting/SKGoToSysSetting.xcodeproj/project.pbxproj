@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0328CAAF1F32CFE70049FD73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0328CAAE1F32CFE70049FD73 /* main.m */; };
+		0328CAB21F32CFE70049FD73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0328CAB11F32CFE70049FD73 /* AppDelegate.m */; };
+		0328CAB51F32CFE70049FD73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0328CAB41F32CFE70049FD73 /* ViewController.m */; };
+		0328CAB81F32CFE70049FD73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0328CAB61F32CFE70049FD73 /* Main.storyboard */; };
+		0328CABA1F32CFE80049FD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0328CAB91F32CFE80049FD73 /* Assets.xcassets */; };
+		0328CABD1F32CFE80049FD73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0328CABB1F32CFE80049FD73 /* LaunchScreen.storyboard */; };
+		0328CAC81F32CFE90049FD73 /* SKGoToSysSettingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0328CAC71F32CFE90049FD73 /* SKGoToSysSettingTests.m */; };
+		0328CAD31F32CFE90049FD73 /* SKGoToSysSettingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0328CAD21F32CFE90049FD73 /* SKGoToSysSettingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0328CAC41F32CFE90049FD73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0328CAA21F32CFE70049FD73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0328CAA91F32CFE70049FD73;
+			remoteInfo = SKGoToSysSetting;
+		};
+		0328CACF1F32CFE90049FD73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0328CAA21F32CFE70049FD73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0328CAA91F32CFE70049FD73;
+			remoteInfo = SKGoToSysSetting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0328CAAA1F32CFE70049FD73 /* SKGoToSysSetting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKGoToSysSetting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0328CAAE1F32CFE70049FD73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0328CAB01F32CFE70049FD73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0328CAB11F32CFE70049FD73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0328CAB31F32CFE70049FD73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0328CAB41F32CFE70049FD73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0328CAB71F32CFE70049FD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0328CAB91F32CFE80049FD73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0328CABC1F32CFE80049FD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0328CABE1F32CFE80049FD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0328CAC31F32CFE90049FD73 /* SKGoToSysSettingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKGoToSysSettingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0328CAC71F32CFE90049FD73 /* SKGoToSysSettingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKGoToSysSettingTests.m; sourceTree = "<group>"; };
+		0328CAC91F32CFE90049FD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0328CACE1F32CFE90049FD73 /* SKGoToSysSettingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKGoToSysSettingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0328CAD21F32CFE90049FD73 /* SKGoToSysSettingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKGoToSysSettingUITests.m; sourceTree = "<group>"; };
+		0328CAD41F32CFE90049FD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0328CAA71F32CFE70049FD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0328CAC01F32CFE90049FD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0328CACB1F32CFE90049FD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0328CAA11F32CFE60049FD73 = {
+			isa = PBXGroup;
+			children = (
+				0328CAAC1F32CFE70049FD73 /* SKGoToSysSetting */,
+				0328CAC61F32CFE90049FD73 /* SKGoToSysSettingTests */,
+				0328CAD11F32CFE90049FD73 /* SKGoToSysSettingUITests */,
+				0328CAAB1F32CFE70049FD73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0328CAAB1F32CFE70049FD73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0328CAAA1F32CFE70049FD73 /* SKGoToSysSetting.app */,
+				0328CAC31F32CFE90049FD73 /* SKGoToSysSettingTests.xctest */,
+				0328CACE1F32CFE90049FD73 /* SKGoToSysSettingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0328CAAC1F32CFE70049FD73 /* SKGoToSysSetting */ = {
+			isa = PBXGroup;
+			children = (
+				0328CAB01F32CFE70049FD73 /* AppDelegate.h */,
+				0328CAB11F32CFE70049FD73 /* AppDelegate.m */,
+				0328CAB31F32CFE70049FD73 /* ViewController.h */,
+				0328CAB41F32CFE70049FD73 /* ViewController.m */,
+				0328CAB61F32CFE70049FD73 /* Main.storyboard */,
+				0328CAB91F32CFE80049FD73 /* Assets.xcassets */,
+				0328CABB1F32CFE80049FD73 /* LaunchScreen.storyboard */,
+				0328CABE1F32CFE80049FD73 /* Info.plist */,
+				0328CAAD1F32CFE70049FD73 /* Supporting Files */,
+			);
+			path = SKGoToSysSetting;
+			sourceTree = "<group>";
+		};
+		0328CAAD1F32CFE70049FD73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0328CAAE1F32CFE70049FD73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0328CAC61F32CFE90049FD73 /* SKGoToSysSettingTests */ = {
+			isa = PBXGroup;
+			children = (
+				0328CAC71F32CFE90049FD73 /* SKGoToSysSettingTests.m */,
+				0328CAC91F32CFE90049FD73 /* Info.plist */,
+			);
+			path = SKGoToSysSettingTests;
+			sourceTree = "<group>";
+		};
+		0328CAD11F32CFE90049FD73 /* SKGoToSysSettingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0328CAD21F32CFE90049FD73 /* SKGoToSysSettingUITests.m */,
+				0328CAD41F32CFE90049FD73 /* Info.plist */,
+			);
+			path = SKGoToSysSettingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0328CAA91F32CFE70049FD73 /* SKGoToSysSetting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0328CAD71F32CFE90049FD73 /* Build configuration list for PBXNativeTarget "SKGoToSysSetting" */;
+			buildPhases = (
+				0328CAA61F32CFE70049FD73 /* Sources */,
+				0328CAA71F32CFE70049FD73 /* Frameworks */,
+				0328CAA81F32CFE70049FD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKGoToSysSetting;
+			productName = SKGoToSysSetting;
+			productReference = 0328CAAA1F32CFE70049FD73 /* SKGoToSysSetting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0328CAC21F32CFE90049FD73 /* SKGoToSysSettingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0328CADA1F32CFE90049FD73 /* Build configuration list for PBXNativeTarget "SKGoToSysSettingTests" */;
+			buildPhases = (
+				0328CABF1F32CFE90049FD73 /* Sources */,
+				0328CAC01F32CFE90049FD73 /* Frameworks */,
+				0328CAC11F32CFE90049FD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0328CAC51F32CFE90049FD73 /* PBXTargetDependency */,
+			);
+			name = SKGoToSysSettingTests;
+			productName = SKGoToSysSettingTests;
+			productReference = 0328CAC31F32CFE90049FD73 /* SKGoToSysSettingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0328CACD1F32CFE90049FD73 /* SKGoToSysSettingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0328CADD1F32CFE90049FD73 /* Build configuration list for PBXNativeTarget "SKGoToSysSettingUITests" */;
+			buildPhases = (
+				0328CACA1F32CFE90049FD73 /* Sources */,
+				0328CACB1F32CFE90049FD73 /* Frameworks */,
+				0328CACC1F32CFE90049FD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0328CAD01F32CFE90049FD73 /* PBXTargetDependency */,
+			);
+			name = SKGoToSysSettingUITests;
+			productName = SKGoToSysSettingUITests;
+			productReference = 0328CACE1F32CFE90049FD73 /* SKGoToSysSettingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0328CAA21F32CFE70049FD73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AlexanderYeah;
+				TargetAttributes = {
+					0328CAA91F32CFE70049FD73 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+					};
+					0328CAC21F32CFE90049FD73 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0328CAA91F32CFE70049FD73;
+					};
+					0328CACD1F32CFE90049FD73 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0328CAA91F32CFE70049FD73;
+					};
+				};
+			};
+			buildConfigurationList = 0328CAA51F32CFE70049FD73 /* Build configuration list for PBXProject "SKGoToSysSetting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0328CAA11F32CFE60049FD73;
+			productRefGroup = 0328CAAB1F32CFE70049FD73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0328CAA91F32CFE70049FD73 /* SKGoToSysSetting */,
+				0328CAC21F32CFE90049FD73 /* SKGoToSysSettingTests */,
+				0328CACD1F32CFE90049FD73 /* SKGoToSysSettingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0328CAA81F32CFE70049FD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0328CABD1F32CFE80049FD73 /* LaunchScreen.storyboard in Resources */,
+				0328CABA1F32CFE80049FD73 /* Assets.xcassets in Resources */,
+				0328CAB81F32CFE70049FD73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0328CAC11F32CFE90049FD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0328CACC1F32CFE90049FD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0328CAA61F32CFE70049FD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0328CAB51F32CFE70049FD73 /* ViewController.m in Sources */,
+				0328CAB21F32CFE70049FD73 /* AppDelegate.m in Sources */,
+				0328CAAF1F32CFE70049FD73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0328CABF1F32CFE90049FD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0328CAC81F32CFE90049FD73 /* SKGoToSysSettingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0328CACA1F32CFE90049FD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0328CAD31F32CFE90049FD73 /* SKGoToSysSettingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0328CAC51F32CFE90049FD73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0328CAA91F32CFE70049FD73 /* SKGoToSysSetting */;
+			targetProxy = 0328CAC41F32CFE90049FD73 /* PBXContainerItemProxy */;
+		};
+		0328CAD01F32CFE90049FD73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0328CAA91F32CFE70049FD73 /* SKGoToSysSetting */;
+			targetProxy = 0328CACF1F32CFE90049FD73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0328CAB61F32CFE70049FD73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0328CAB71F32CFE70049FD73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0328CABB1F32CFE80049FD73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0328CABC1F32CFE80049FD73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0328CAD51F32CFE90049FD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0328CAD61F32CFE90049FD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0328CAD81F32CFE90049FD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKGoToSysSetting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.navDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0328CAD91F32CFE90049FD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKGoToSysSetting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.navDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0328CADB1F32CFE90049FD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKGoToSysSettingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKGoToSysSettingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKGoToSysSetting.app/SKGoToSysSetting";
+			};
+			name = Debug;
+		};
+		0328CADC1F32CFE90049FD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKGoToSysSettingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKGoToSysSettingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKGoToSysSetting.app/SKGoToSysSetting";
+			};
+			name = Release;
+		};
+		0328CADE1F32CFE90049FD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKGoToSysSettingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKGoToSysSettingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKGoToSysSetting;
+			};
+			name = Debug;
+		};
+		0328CADF1F32CFE90049FD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKGoToSysSettingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.SKGoToSysSettingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKGoToSysSetting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0328CAA51F32CFE70049FD73 /* Build configuration list for PBXProject "SKGoToSysSetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0328CAD51F32CFE90049FD73 /* Debug */,
+				0328CAD61F32CFE90049FD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0328CAD71F32CFE90049FD73 /* Build configuration list for PBXNativeTarget "SKGoToSysSetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0328CAD81F32CFE90049FD73 /* Debug */,
+				0328CAD91F32CFE90049FD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0328CADA1F32CFE90049FD73 /* Build configuration list for PBXNativeTarget "SKGoToSysSettingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0328CADB1F32CFE90049FD73 /* Debug */,
+				0328CADC1F32CFE90049FD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0328CADD1F32CFE90049FD73 /* Build configuration list for PBXNativeTarget "SKGoToSysSettingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0328CADE1F32CFE90049FD73 /* Debug */,
+				0328CADF1F32CFE90049FD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0328CAA21F32CFE70049FD73 /* Project object */;
+}
